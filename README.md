@@ -11,6 +11,7 @@
   - Fit a logistic regression model using the training data (X_train and y_train).
   - Save predictions for the testing data labels using the fitted model.
   - Evaluate the model’s performance:
+    - Calculate the accuracy score.
     - Generate a confusion matrix.
     - Print the classification report.
 * Methods `LogisticRegression` and `RandomOverSampler` were used to better fit the model and make predictions.
